@@ -1,0 +1,25 @@
+@import 'button';
+@import 'modal';
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+div {
+  text-align: center;
+}
+
+.scroll-content {
+  position: absolute;
+  top:0;
+
+  .quad {
+      margin:10px;
+      display: block;
+      height: 50px;
+      width: 50px;
+      background-color: #eee;
+      border-radius: 8px;
+  }
+}
